@@ -406,7 +406,7 @@ END:VCARD`;
   return (
     <>
       <div className="h-full bg-primary/30">
-      <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
+      <div className="container mx-auto pt-24 pb-12 xl:py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
           {/* text */}
@@ -433,7 +433,7 @@ END:VCARD`;
             name="contact"
           >
             {/* input group */}
-            <div className="flex gap-x-6 w-full">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-x-6 w-full">
               <input type="hidden" name="form-name" value="contact" />
 
               <input

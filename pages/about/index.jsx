@@ -181,7 +181,7 @@ const About = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className="h-full bg-primary/30 pt-36 xl:pt-44 pb-20 text-center xl:text-left">
+    <div className="h-full bg-primary/30 pt-24 xl:pt-44 pb-20 text-center xl:text-left">
       <Circles />
 
       {/* avatar img */}
@@ -304,7 +304,7 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+          className="flex flex-col w-full xl:max-w-[48%] h-auto lg:h-[480px]"
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemI) => (
