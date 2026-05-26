@@ -69,9 +69,9 @@ const WhyHireMe = () => {
   ];
 
   return (
-    <div className="h-full bg-primary/30 py-32 xl:py-0 flex items-center overflow-y-auto xl:overflow-hidden">
+    <div className="h-full bg-primary/30 pt-24 pb-12 xl:py-0 flex items-center overflow-y-auto xl:overflow-hidden">
       <Circles />
-      <div className="container mx-auto h-full flex flex-col xl:flex-row gap-x-8 justify-center items-center py-6 xl:py-0">
+      <div className="container mx-auto h-full flex flex-col xl:flex-row gap-x-8 justify-center items-center py-2 xl:py-0">
         
         {/* Left Side (Narrative & Stats Grid) */}
         <div className="flex-1 flex flex-col justify-center text-center xl:text-left z-10">
@@ -80,7 +80,7 @@ const WhyHireMe = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-[26px] xl:text-[40px] xl:leading-[1.2] mb-4 mt-8 xl:mt-0"
+            className="h2 text-[26px] xl:text-[40px] xl:leading-[1.2] mb-4 mt-2 xl:mt-0"
           >
             Why Hire <span className="text-accent">Me .</span>
           </motion.h2>

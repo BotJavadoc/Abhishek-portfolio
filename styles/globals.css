@@ -49,3 +49,27 @@
     @apply w-full h-[180px] p-6 rounded-lg resize-none;
   }
 }
+
+/* Global mobile and tablet responsiveness overrides (<960px) */
+@media (max-width: 959px) {
+  body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+  .page {
+    min-height: 100vh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    /* Add extra padding at the bottom so content is never covered by the fixed bottom nav */
+    padding-bottom: 7.5rem !important;
+  }
+  
+  /* Ensure framer motion transition wraps and page components can grow dynamically */
+  .page,
+  .page *[class*="h-full"],
+  .page > div,
+  .page > div > div {
+    height: auto !important;
+  }
+}
+

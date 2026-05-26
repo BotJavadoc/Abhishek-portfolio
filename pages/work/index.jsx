@@ -1330,7 +1330,7 @@ const Work = () => {
   };
 
   return (
-    <div className="h-full bg-primary/30 py-20 xl:py-0 flex items-center overflow-y-auto xl:overflow-hidden">
+    <div className="h-full bg-primary/30 pt-28 pb-20 xl:py-0 flex items-center overflow-y-auto xl:overflow-hidden">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
