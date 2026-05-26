@@ -64,9 +64,8 @@
     padding-bottom: 7.5rem !important;
   }
   
-  /* Ensure framer motion transition wraps and page components can grow dynamically */
+  /* Target only the main content flow wrappers to allow auto-height stretching, while letting absolute elements preserve 100% constraints */
   .page,
-  .page *[class*="h-full"],
   .page > div,
   .page > div > div {
     height: auto !important;
