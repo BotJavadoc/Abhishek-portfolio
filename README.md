@@ -52,6 +52,7 @@ modern-portfolio/
     |-- CardLeft.jsx
     |-- CardRight.jsx
     |-- Circles.jsx
+    |-- CodingIllustration.jsx
     |-- Header.jsx
     |-- Layout.jsx
     |-- Nav.jsx
@@ -67,11 +68,13 @@ modern-portfolio/
     |-- about/
     |-- contact/
     |-- services/
-    |-- testimonials/
+    |-- why-hire-me/
     |-- work/
     |-- _app.jsx
     |-- index.jsx
   |- public/
+  |- resume/
+    |-- Abhishek Resume.pdf
   |- styles/
     |-- globals.css
   |- .eslintrc.json
